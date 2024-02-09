@@ -1,6 +1,20 @@
 //% weight=30 icon="\uf0eb" color=#000080 block="KakutyoBlockTop"
 namespace kakutyoNameSpace {
 
+    export enum list1{
+        //% block="リスト1のひとつめ"
+        First = 0,
+        //% block="リスト1のふたつめ"
+        Second = 1
+    }
+
+    export enum list2 {
+        First = 0,
+        Second = 1
+    }
+
+
+    
     //% group="kakutyoGroupA"
     //% blockId="kakutyoA1BlockId"
     //% block="kakutyoA1Block"

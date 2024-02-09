@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-kagabitideo": "github:intetras/pxt-kagabitideo#master"
     },
     "files": [
         "main.blocks",
