@@ -13,8 +13,6 @@ namespace kakutyoNameSpace {
         Second = 1
     }
 
-
-    
     //% group="kakutyoGroupA"
     //% blockId="kakutyoA1BlockId"
     //% block="kakutyoA1Block"
