@@ -53,4 +53,12 @@ namespace kakutyoNameSpace {
         //値を返す関数
         return 1
     }
+
+    //% group="kakutyoGroupB"
+    //% blockId="kakutyoB2BlockId"
+    //% block="kakutyoB2Block"
+    export function kakutyoB2(retBool: boolean) {
+        //値を返す関数
+        return true
+    }
 }
