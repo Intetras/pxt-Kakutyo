@@ -14,6 +14,7 @@ namespace kakutyoNameSpace {
     }
 
     //% group="kakutyoGroupA"
+    //% weight=1
     //% blockId="kakutyoA1BlockId"
     //% block="kakutyoA1Block"
     export function kakutyoA1() {
@@ -22,6 +23,7 @@ namespace kakutyoNameSpace {
     }
 
     //% group="kakutyoGroupA"
+    //% weight=2
     //% blockId="kakutyoA2BlockId"
     //% block="kakutyoA2Block %Num"
     export function kakutyoA2(Num:number) {
@@ -30,6 +32,7 @@ namespace kakutyoNameSpace {
     }
 
     //% group="kakutyoGroupA"
+    //% weight=3
     //% blockId="kakutyoA3BlockId"
     //% block="kakutyoA3Block"
     export function kakutyoA3(handler:()=>void) {
