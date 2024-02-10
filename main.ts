@@ -29,6 +29,23 @@ namespace kakutyoNameSpace {
         //引数ひとつ
     }
 
+    //% group="kakutyoGroupA"
+    //% blockId="kakutyoA3BlockId"
+    //% block="kakutyoA3Block"
+    export function kakutyoA3(handler:()=>void) {
+        //値を返さない関数
+        //●●の場合
+        input.onButtonPressed(Button.A,()=>{handler();})
+        //control.onEvent(
+        //    1,
+        //    EventBusValue.MICROBIT_EVT_ANY,
+        //    () => {
+        //        handler();
+        //    }
+
+        //)
+    }
+
     //% group="kakutyoGroupB"
     //% blockId="kakutyoB1BlockId"
     //% block="kakutyoB1Block"
